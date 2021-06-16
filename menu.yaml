@@ -1,0 +1,30 @@
+set:
+  devOpsHome: ~/
+
+macro:
+  enterPod:
+    parameters:
+      - name
+    do:
+      - execute: docker-compose exec name bash
+      - pause
+
+menu:
+  title: Awsome menu
+  options:
+    Promofarma V1/V2:
+      menu:
+        Enter Pod:
+          context:
+            path: devOpsHome
+          menu:
+            Promofarma (V2):
+              enterPod: promofarma_server
+            Novaventus (V1):
+              enterPod: novaventus_server
+            Redis:
+              enterPod: redis_server
+    Tunnels:
+    GraphQl:
+    Bye:
+      - exit
