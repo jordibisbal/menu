@@ -3,6 +3,7 @@
 namespace Menu\Shared\ServiceLocator\Domain;
 
 use AbstractDataStructures\Collection;
+use Menu\Shared\ServiceLocator\Domain\Service\Service;
 
 /**
  * @method Service get(string $key)

@@ -5,6 +5,7 @@
          backupGlobals="false" colors="true"
          bootstrap="tests/bootstrap.php"
          executionOrder="random"
+         resolveDependencies="true"
 >
   <coverage processUncoveredFiles="true">
     <include>

@@ -1,2 +1,3 @@
 #!/bin/sh
-XDEBUG_MODE=coverage vendor/bin/infection --threads=6 --ansi -s
+export XDEBUG_MODE=coverage
+vendor/bin/infection --threads=6 --ansi -s
