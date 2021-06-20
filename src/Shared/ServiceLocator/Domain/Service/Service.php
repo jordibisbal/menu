@@ -8,5 +8,5 @@ interface Service
 {
     public function service(): object;
 
-    public function getClass(): string;
+    public function getDefaultServiceName(): string;
 }

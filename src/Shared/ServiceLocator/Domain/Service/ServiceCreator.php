@@ -10,7 +10,7 @@ final class ServiceCreator
 {
     public static function create(object|callable $value): Service
     {
-        return match (true) {
+        /** @infection-ignore-all */ return match (true) {
             is_callable($value) => self::createServiceFactory($value),
             default => self::createService($value)
         };

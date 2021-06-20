@@ -20,7 +20,7 @@ final class RegularService implements Service
         return $this->value;
     }
 
-    public function getClass(): string
+    public function getDefaultServiceName(): string
     {
         return get_class($this->value);
     }

@@ -10,6 +10,6 @@ final class UnableToReturnServiceClassName extends RuntimeException
 {
     public static function becauseIsAServiceFactory(): self
     {
-        throw new self('A generic factory cannot return provided service class name');
+        return new self('A service factory cannot return a default service name');
     }
 }

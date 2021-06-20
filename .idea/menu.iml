@@ -49,7 +49,6 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/php-school/cli-menu" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/yaml" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-ctype" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/jordibisbal/functional-php" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/deprecation-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/beberlei/assert" />
@@ -79,7 +78,6 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/infection/abstract-testframework-adapter" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/infection/infection" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/infection/extension-installer" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/jordibisbal/abstract-data-structures-php" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/diff" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/justinrainbow/json-schema" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sanmai/later" />

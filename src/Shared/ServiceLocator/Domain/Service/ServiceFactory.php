@@ -22,7 +22,10 @@ final class ServiceFactory implements Service
         return ($this->factory)();
     }
 
-    public function getClass(): string
+    /**
+     * @throws UnableToReturnServiceClassName
+     */
+    public function getDefaultServiceName(): string
     {
         throw UnableToReturnServiceClassName::becauseIsAserviceFactory();
     }

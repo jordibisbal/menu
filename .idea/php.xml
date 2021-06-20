@@ -143,6 +143,12 @@
       <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
       <path value="$PROJECT_DIR$/vendor/symfony/config" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/vendor/jordibisbal/abstract-data-structures-php" />
+      <path value="$PROJECT_DIR$/vendor/jordibisbal/abstract-data-structures-php" />
+      <path value="$PROJECT_DIR$/vendor/jordibisbal/abstract-data-structures-php" />
+      <path value="$PROJECT_DIR$/vendor/jordibisbal/abstract-data-structures-php" />
+      <path value="$PROJECT_DIR$/vendor/jordibisbal/abstract-data-structures-php" />
+      <path value="$PROJECT_DIR$/vendor/jordibisbal/abstract-data-structures-php" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
@@ -152,6 +158,11 @@
     <PhpStan_settings>
       <PhpStanConfiguration tool_path="$PROJECT_DIR$/vendor/bin/phpstan" />
     </PhpStan_settings>
+  </component>
+  <component name="PhpStepFilterConfiguration">
+    <skipped_functions>
+      <skipped_function name="Composer\Autoload\ClassLoader-&gt;loadClass" />
+    </skipped_functions>
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
